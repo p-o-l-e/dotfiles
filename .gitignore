@@ -1,0 +1,10 @@
+*
+
+!.gitignore
+!.config/
+!.config/**
+!.tmux/
+!.tmux/**
+!essential_install.sh
+!.bashrc
+!.profile

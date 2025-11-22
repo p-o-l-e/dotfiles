@@ -1,0 +1,27 @@
+{
+    "label" : "lock",
+    "action" : "swaylock",
+    "text" : "Lock",
+    "keybind" : "l"
+}
+
+{
+    "label" : "logout",
+    "action" : "hyprctl dispatch exit 0",
+    "text" : "Logout",
+    "keybind" : "e"
+}
+
+{
+    "label" : "shutdown",
+    "action" : "sudo runit-init 0",
+    "text" : "Shutdown",
+    "keybind" : "s"
+}
+
+{
+    "label" : "reboot",
+    "action" : "sudo runit-init 6",
+    "text" : "Reboot",
+    "keybind" : "r"
+}
