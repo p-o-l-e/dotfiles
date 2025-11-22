@@ -26,16 +26,16 @@ apt install -y starship flatpak meld  fuse-zip brightnessctl curl
 apt install -y fuseiso archivemount unrar unzip ripgrep fd-find 
 
 echo "Setting up Desktop tools..."
-apt install -y hyprland wayland-protocols waybar tofi pipewire wireplumber xdg-desktop-portal-hyprland \
-xwaylandvideobridge qt6-wayland swaybg nemo nemo-font-manager wlogout grim slurp wl-clipboard
+apt install -y hyprland hyprland-guiutils hyprlock hypridle hyprpaper hyprpicker hyprqt6engine\
+wayland-protocols waybar tofi pipewire wireplumber xdg-desktop-portal-hyprland \
+xwaylandvideobridge qt6-wayland swaybg nemo nemo-font-manager wlogout grim slurp wl-clipboard dunst grimshot
 
 echo "Setting up Graphic tools..."
 apt install -y mtpaint inkscape blender gpick vlc zathura qimgv krita \
 vulkan-tools wayland-utils xcompmgr
 
 echo "Hyprland build dependencies..."
-apt install -y libwayland-dev libxkbcommon-dev libcairo2-dev libjpeg-dev
-libgl1-mesa-dev
+apt install -y libwayland-dev libxkbcommon-dev libcairo2-dev libjpeg-dev libgl1-mesa-dev
 
 
 echo "Setting up Sound system..."
