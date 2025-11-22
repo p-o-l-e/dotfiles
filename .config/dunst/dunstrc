@@ -1,6 +1,6 @@
 
 [global]
-    frame_width = 1
+    frame_width = 0
     frame_color = "#1E272C"
     
     font = JetBrains Mono 10
@@ -182,18 +182,18 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#263238"
-    foreground = "#556064"
+    background = "#1E272C"
+    foreground = "#B0BEC5"
     timeout = 10
 
 [urgency_normal]
-    background = "#263238"
-    foreground = "#F9FAF9"
+    background = "#314549"
+    foreground = "#B0BEC5"
     timeout = 10
 
 [urgency_critical]
-    background = "#D62929"
-    foreground = "#F9FAF9"
+    background = "#f07178"
+    foreground = "#eeffff"
     timeout = 0
 
 
