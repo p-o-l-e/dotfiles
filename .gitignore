@@ -3,8 +3,6 @@
 !.gitignore
 !.config/
 !.config/**
-!.tmux/
-!.tmux/**
-!essential_install.sh
+!install.sh
 !.bashrc
 !.profile
