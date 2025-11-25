@@ -40,10 +40,15 @@ end
 lazy.path = vim.fn.stdpath('data') .. '/lazy/lazy.nvim'
 lazy.opts = {}
 
+vim.lsp.enable({
+    'clangd',
+    'luals'
+})
+
+
 lazy.setup({
 
 	require("plugins/nvim-treesitter"),
-	require("plugins/nvim-lspconfig"),
 	require("plugins/telescope"),
 	require("plugins/telescope-fb"),
 	require("plugins/frecency"),
@@ -75,7 +80,6 @@ require('config/dap')
 require('config/material')
 vim.cmd.colorscheme('material')
 
-require('config/nvim-lspconfig')
 require('config/blink')
 require('config/yanky')
 -- require('config/supermaven')
