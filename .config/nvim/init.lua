@@ -50,47 +50,35 @@ lazy.setup({
 
 	require("plugins/nvim-treesitter"),
 	require("plugins/telescope"),
-	require("plugins/telescope-fb"),
+	--require("plugins/telescope-fb"),
 	require("plugins/frecency"),
 	require("plugins/dashboard"),
 	require("plugins/minimap"),
 	require("plugins/aerial"),
-	require("plugins/yanky"),
-	require("plugins/dap"),
+	--require("plugins/dap"),
 	-- require("plugins/harpoon"),
-	-- require("plugins/stay-centered"),
 	require("plugins/which-key"),
-	require("plugins/mason"),
-	require("plugins/conform"),
-	-- require("plugins/avante"),
 	require("plugins/blink"),
 	require("plugins/nvim-tree"),
 	require("plugins/lualine"),
 	require("plugins/multicursor"),
-	-- require("plugins/llama"),
 	{'echasnovski/mini.comment', version = '*' },
-	{'echasnovski/mini.move', version = '*' },
-	{'echasnovski/mini.colors', version = '*' },
 	{'p-o-l-e/material.nvim'},
 })
 
-require("dapui").setup()
-require('config/dap')
+--require("dapui").setup()
+--require('config/dap')
 -- require("dapui").toggle()
 require('config/material')
 vim.cmd.colorscheme('material')
 
 require('config/blink')
-require('config/yanky')
 -- require('config/supermaven')
 require('config/aerial')
 require('config/telescope')
-require('config/telescope-fb')
+--require('config/telescope-fb')
 --require('config/harpoon')
 require('config/lualine')
 require('config/nvim-tree')
 require('config/mini-comment')
-require('config/mini-move')
-require('config/mini-colors')
-
 
